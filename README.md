@@ -1,6 +1,32 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
+4a.
+The code first defines a function called ' random_walk ' to generate two-dimensional walking path from n steps.
+According to df[1,] <- c(0,0,1), the walk always starts at (0,0) at time 1. For each step, the walker will move 0.25 unit in a random direction. The for loop describes how the movement is generated randomly from time 2 to n steps.
+Then, two random walks of 500 steps are generated from the defined function and are illustrated in the graph. The colour of the path states for the time when the movement was taken (i.e. Colour indicates which movement was taken by which step). 	The initial step states the darkest point of the colour spectrum while the final step (500th step) states the lightest. The two walking paths are completely different from each other.
+
+4b.
+A random seed is a value to initiate a random number generator to generate a sequence of random numbers. Everytime when the same random seed is entered into the random number generator, the same sequence of random numbers will always be generated. It is used when we want to make a random motion/process reproducible for future use, for example, for consistency and debugging.
+
+edit history: https://github.com/Assignments-Only/reproducible-research_homework/blob/dev/Version%20control%20Q4%20edit%20history.png
+
+5a.
+33 rows and 13 columns.
+
+5b.
+log-transformation of both virion volume and genome size
+
+5c.
+β=1.5152 p-value:6.44e-10
+α=e^7.0748=1181.807 p-value(actually for log(α)) :2.28e-10
+p-value for the linear model: 6.438e-10
+All the p-values are statistically significant. After rounding, α and β are the same as in the paper.
+
+5d. please see question-5-code.R (https://github.com/Assignments-Only/reproducible-research_homework/blob/dev/question-5-code.R)
+
+5e. V = 1181.807*(300^1.5152)=6697006
+
 
 ## Instructions
 
