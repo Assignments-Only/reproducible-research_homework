@@ -26,5 +26,5 @@ ggplot(virus, aes(x = log(Genome.length..kb.), y = log(Virion.volume..nm.nm.nm.)
 
 
 ##Estimated volume of given genome size (300kb)
-V <- 1187.807*(300^1.5152)
+V <- 1181.807*(300^1.5152)
 V
