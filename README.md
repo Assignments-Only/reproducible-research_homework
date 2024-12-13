@@ -26,6 +26,7 @@ p-value for the linear model: 6.438e-10
 All the p-values are statistically significant. After rounding, α and β are the same as in the paper.
 
 5d. please see question-5-code.R (https://github.com/Assignments-Only/reproducible-research_homework/blob/main/question-5-code.R)
+figure please see (https://github.com/Assignments-Only/reproducible-research_homework/blob/main/virion.png)
 
 5e. V = 1181.807*(300^1.5152)=6697006
 
