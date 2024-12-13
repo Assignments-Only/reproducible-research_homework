@@ -9,7 +9,7 @@ Then, two random walks of 500 steps are generated from the defined function and 
 4b.
 A random seed is a value to initiate a random number generator to generate a sequence of random numbers. Everytime when the same random seed is entered into the random number generator, the same sequence of random numbers will always be generated. It is used when we want to make a random motion/process reproducible for future use, for example, for consistency and debugging.
 
-edit history: https://github.com/Assignments-Only/reproducible-research_homework/blob/dev/Version%20control%20Q4%20edit%20history.png
+edit history: https://github.com/Assignments-Only/reproducible-research_homework/blob/main/Version%20control%20Q4%20edit%20history.png
 
 5a.
 33 rows and 13 columns.
@@ -23,7 +23,7 @@ log-transformation of both virion volume and genome size
 p-value for the linear model: 6.438e-10
 All the p-values are statistically significant. After rounding, α and β are the same as in the paper.
 
-5d. please see question-5-code.R (https://github.com/Assignments-Only/reproducible-research_homework/blob/dev/question-5-code.R)
+5d. please see question-5-code.R (https://github.com/Assignments-Only/reproducible-research_homework/blob/main/question-5-code.R)
 
 5e. V = 1181.807*(300^1.5152)=6697006
 
