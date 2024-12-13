@@ -1,6 +1,8 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
+Q1-Q3: https://github.com/Assignments-Only/logistic_growth
+(link for README: https://github.com/Assignments-Only/logistic_growth/blob/main/README.md)
 4a.
 The code first defines a function called ' random_walk ' to generate two-dimensional walking path from n steps.
 According to df[1,] <- c(0,0,1), the walk always starts at (0,0) at time 1. For each step, the walker will move 0.25 unit in a random direction. The for loop describes how the movement is generated randomly from time 2 to n steps.
